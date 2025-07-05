@@ -1,0 +1,9 @@
+name: strategy_color
+functions:
+- name: hello
+  source_dir: packages/hello
+  runtime: go120
+  github:
+    repo: kamalmog/sample-functions-golang-helloworld
+    branch: main
+    deploy_on_push: true
