@@ -4,10 +4,11 @@ packages:
   - name: sample
     environment: {}
     parameters: {}
-    actions:
+    functions:
       - name: hello
         main: ''
         runtime: 'go:default'
+        web: 'true'
         environment: {}
         parameters: {}
 
