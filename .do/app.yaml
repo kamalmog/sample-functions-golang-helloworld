@@ -1,7 +1,7 @@
 name: strategy_color
 functions:
 - name: hello
-  source_dir: packages/hello
+  source_dir: packages/sample/hello
   runtime: go120
   github:
     repo: kamalmog/sample-functions-golang-helloworld
