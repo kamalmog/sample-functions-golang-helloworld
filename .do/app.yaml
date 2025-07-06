@@ -1,4 +1,4 @@
-name: strategy_color
+name: bot-v1-strategies-strategy-color
 functions:
 - name: hello
   source_dir: packages/sample/hello
