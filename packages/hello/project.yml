@@ -1,5 +1,6 @@
 packages:
   - name: hello
+    path: '/'
     actions:
       - name: hello-function
         main: ''
