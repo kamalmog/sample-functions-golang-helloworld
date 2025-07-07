@@ -1,3 +1,3 @@
-module hello
+module hello-function
 
 go 1.19
