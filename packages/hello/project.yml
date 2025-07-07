@@ -5,4 +5,3 @@ packages:
         main: ""
         runtime: go:1.19
         web: true
-        webSecure: true
