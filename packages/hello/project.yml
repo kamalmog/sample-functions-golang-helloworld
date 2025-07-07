@@ -2,5 +2,6 @@ packages:
   - name: hello
     actions:
       - name: hello-function
-        runtime: go:default
+        main: ''
+        runtime: 'go:default'
         web: true
