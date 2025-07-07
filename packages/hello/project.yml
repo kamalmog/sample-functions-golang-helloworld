@@ -5,3 +5,4 @@ packages:
         main: ""
         runtime: go:default
         web: true
+        path: /func1
