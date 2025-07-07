@@ -1,14 +1,8 @@
-parameters: {}
-environment: {}
 packages:
-  - name: sample
-    environment: {}
-    parameters: {}
-    functions:
-      - name: hello
-        main: ''
-        runtime: 'go:default'
+  - name: hello
+    actions:
+      - name: hello-function
+        main: ""
+        runtime: go:1.19
         web: true
-        environment: {}
-        parameters: {}
-
+        webSecure: true
