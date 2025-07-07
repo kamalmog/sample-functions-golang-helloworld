@@ -3,5 +3,5 @@ packages:
     actions:
       - name: hello-function
         main: ""
-        runtime: go:1.19
+        runtime: go:119
         web: true
