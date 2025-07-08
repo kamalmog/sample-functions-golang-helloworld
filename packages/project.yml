@@ -1,7 +1,7 @@
 parameters: {}
 environment: {}
 packages:
-  - name: hello
+  - name: hello-function
     environment: {}
     parameters: {}
     actions:
