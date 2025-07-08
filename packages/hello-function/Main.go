@@ -1,4 +1,4 @@
-package hello-function
+package main
 
 import (
    // "context"
@@ -18,7 +18,7 @@ type Request struct {
     Body       string            `json:"body"`
     QueryStringParameters map[string]string `json:"queryStringParameters"`
 }*/
-func Main(args map[interface{}]interface{}) map[interface{}]interface{} {
+func Main(args map[string]interface{}) map[string]interface{} {
     name, ok := args["name"].(string)
     if !ok {
         name = "stranger"
