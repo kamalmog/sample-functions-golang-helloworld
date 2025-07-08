@@ -1,4 +1,4 @@
-package main
+package hello-function
 
 import (
    // "context"
