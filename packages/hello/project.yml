@@ -7,6 +7,6 @@ packages:
     actions:
       - name: hello-function
         main: ''
-        runtime: 'go:1.2'
+        runtime: 'go:1.20'
         environment: {}
         parameters: {}        
