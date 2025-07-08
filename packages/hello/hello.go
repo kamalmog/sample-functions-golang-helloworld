@@ -2,8 +2,8 @@ package main
 
 import (
     "context"
-    "encoding/json"
-    "fmt"
+    //"encoding/json"
+    //"fmt"
 )
 
 type Response struct {
@@ -24,9 +24,22 @@ func Main(ctx context.Context, in Request) (*Response, error) {
     // Handle different HTTP methods
     switch in.HTTPMethod {
     case "GET":
-        return handleGet(in)
+        return &Response{
+            StatusCode: 200,
+            Body:       `{"Note": "got a get"}`,
+            Headers: map[string]string{
+                "Content-Type": "application/json",
+            },
+        }, nil
+    
     case "POST":
-        return handlePost(in)
+       return &Response{
+            StatusCode: 200,
+            Body:       `{"Note": "got a post"}`,
+            Headers: map[string]string{
+                "Content-Type": "application/json",
+            },
+        }, nil
     default:
         return &Response{
             StatusCode: 405,
@@ -38,7 +51,7 @@ func Main(ctx context.Context, in Request) (*Response, error) {
     }
 }
 
-func handleGet(in Request) (*Response, error) {
+/*func handleGet(in Request) (*Response, error) {
     name := in.QueryStringParameters["name"]
     if name == "" {
         name = "World"
@@ -89,4 +102,4 @@ func handlePost(in Request) (*Response, error) {
         },
     }, nil
 }
-
+*/
