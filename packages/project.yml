@@ -2,7 +2,6 @@ parameters: {}
 environment: {}
 packages:
   - name: hello-function
-    path: hello-function 
     environment: {}
     parameters: {}
     actions:
