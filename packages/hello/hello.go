@@ -1,12 +1,11 @@
 package main
 
 import (
-    "context"
+   // "context"
     //"encoding/json"
     //"fmt"
 )
-
-type Response struct {
+/*type Response struct {
     StatusCode int               `json:"statusCode"`
     Body       string           `json:"body"`
     Headers    map[string]string `json:"headers,omitempty"`
@@ -18,9 +17,19 @@ type Request struct {
     Headers    map[string]string `json:"headers"`
     Body       string            `json:"body"`
     QueryStringParameters map[string]string `json:"queryStringParameters"`
+}*/
+func Main(args map[string]interface{}) map[string]interface{} {
+    name, ok := args["name"].(string)
+    if !ok {
+        name = "stranger"
+    }
+    msg := make(map[string]interface{})
+    msg["body"] = "Hello " + name + "!"
+    return msg
 }
 
-func Main(ctx context.Context, in Request) (*Response, error) {
+
+/*func Main (args map[string]interface{}) map[string]interface{}  {
     // Handle different HTTP methods
     switch in.HTTPMethod {
     case "GET":
@@ -49,7 +58,7 @@ func Main(ctx context.Context, in Request) (*Response, error) {
             },
         }, nil
     }
-}
+}*/
 
 /*func handleGet(in Request) (*Response, error) {
     name := in.QueryStringParameters["name"]
