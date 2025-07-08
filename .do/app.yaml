@@ -3,7 +3,7 @@ functions:
 - name: hello-function
   source_dir: /packages/hello
   routes:
-  - path: /func1
+  - path: '/func1'
   github:
     repo: kamalmog/sample-functions-golang-helloworld
     branch: master
