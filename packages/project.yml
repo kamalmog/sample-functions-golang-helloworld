@@ -2,12 +2,12 @@ parameters: {}
 environment: {}
 packages:
   - name: hello-function
+    path: hello-function 
     environment: {}
     parameters: {}
     actions:
       - name: hello-function
         main: 'Main.go'
         runtime: 'go:1.20'
-        path: hello-function 
         environment: {}
         parameters: {}        
