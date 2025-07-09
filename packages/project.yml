@@ -6,7 +6,7 @@ packages:
     parameters: {}
     actions:
       - name: hello-function
-        main: 'Main.go'
+        main: 'Main'
         runtime: 'go:1.20'
         environment: {}
         parameters: {}        
