@@ -1,6 +1,6 @@
 name: strategy-color1
 functions:
-- name: hello-function
+- name: hellofunction
   source_dir: packages
   github:
     repo: kamalmog/sample-functions-golang-helloworld
