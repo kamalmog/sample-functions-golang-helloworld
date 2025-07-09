@@ -6,3 +6,4 @@ packages:
       - name: hello-function
         main: 'Main'
         runtime: 'go:1.20'     
+        path: hello-function
