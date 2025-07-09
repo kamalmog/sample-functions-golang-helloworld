@@ -1,5 +1,3 @@
-parameters: {}
-environment: {}
 packages:
   - name: hello-function
     environment: {}
@@ -7,6 +5,4 @@ packages:
     actions:
       - name: hello-function
         main: 'Main'
-        runtime: 'go:1.20'
-        environment: {}
-        parameters: {}        
+        runtime: 'go:1.20'     
