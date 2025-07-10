@@ -22,7 +22,7 @@ type Response struct {
 	}
 }*/
 
-func Main(params map[string]interface{}) map[string]interface{}{
+func Main(path string,params map[string]interface{}) map[string]interface{}{
 	return Response {
 		Body: "Hello  Kamal ",
 	}
