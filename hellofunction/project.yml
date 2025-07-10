@@ -1,0 +1,6 @@
+packages:
+  - name: default
+    actions:
+      - name: hellofunction
+        main: Main
+        runtime: go:1.20

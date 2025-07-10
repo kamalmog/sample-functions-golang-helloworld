@@ -1,8 +1,0 @@
-packages:
-  - name: hellofunction
-    environment: {}
-    parameters: {}
-    actions:
-      - name: hellofunction
-        main: 'Main'
-        runtime: 'go:1.20'

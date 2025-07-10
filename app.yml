@@ -1,8 +1,9 @@
 name: strategy-color1
+
 functions:
-- name: hellofunction
-  source_dir: /hellofunction
-  github:
-    repo: kamalmog/sample-functions-golang-helloworld
-    branch: master
-    deploy_on_push: true
+  - name: hellofunction
+    source_dir: hellofunction
+    github:
+      repo: kamalmog/sample-functions-golang-helloworld
+      branch: master
+      deploy_on_push: true
