@@ -23,8 +23,7 @@ type Response struct {
 }*/
 
 func Main(params map[string]interface{}) map[string]interface{}{
-	return Response {
-		Body: "Hello  Kamal ",
-		Path: "hellofunction"
-	}
+	msg := make(map[string]interface{})
+	msg["body"] = "Hello Kamal!"
+	return msg
 }
