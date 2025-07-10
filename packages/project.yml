@@ -1,3 +1,7 @@
+    packages:
+  - name: default
+    environment: {}
+    parameters: {}
     actions:
       - name: hellofunction
         main: Main
