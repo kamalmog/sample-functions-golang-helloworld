@@ -22,7 +22,12 @@ type Response struct {
 	}
 }*/
 
-func Main(params map[string]interface{}) map[string]interface{}{
+type Args struct {
+	Path string `json:"path"`
+	All map[string]interface{}
+}
+
+func Main(params Args) map[string]interface{}{
 	msg := make(map[string]interface{})
 	msg["body"] = "Hello Kamal!"
 	return msg
