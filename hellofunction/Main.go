@@ -24,6 +24,6 @@ type Response struct {
 
 func Main(params map[string]interface{}) map[string]interface{}{
 	return Response {
-		Body: "Hello " + event.Name + "! This is function version " + version,
+		Body: "Hello  Kamal ",
 	}
 }
