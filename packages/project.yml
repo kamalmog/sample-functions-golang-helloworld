@@ -1,5 +1,3 @@
-packages:
-  - name: default
     actions:
       - name: hellofunction
         main: Main
