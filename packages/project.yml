@@ -1,9 +1,9 @@
     packages:
-  - name: default
-    environment: {}
-    parameters: {}
-    actions:
-      - name: hellofunction
-        main: Main
-        runtime: go:1.20
-        web: true
+    - name: default
+      environment: {}
+      parameters: {}
+      actions:
+        - name: hellofunction
+          main: Main
+          runtime: go:1.20
+          web: true
