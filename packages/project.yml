@@ -1,5 +1,5 @@
     packages:
-    - name: default
+    - name: functions
       environment: {}
       parameters: {}
       actions:
